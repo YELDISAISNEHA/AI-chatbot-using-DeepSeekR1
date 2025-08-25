@@ -25,9 +25,7 @@ This app provides an interactive chat interface with configurable parameters suc
 ## Configuration:
 
 1. Get your Groq API Key here:
-   ```
    [Get your API Key](https://console.groq.com/keys)
-   ```
 2. Run the app:
    ```
    streamlit run main.py
