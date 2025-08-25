@@ -11,7 +11,7 @@ st.set_page_config(
 with st.sidebar:
     st.title("Chatbot Settings")
     api_key = st.text_input("Groq API Key", type="password")
-    # API_KEY = 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
+    # API_KEY = API_KEY
     st.markdown("[Get Groq API KEY](https://console.groq.com/keys)")
 
     temperature = st.slider("Temperature", 0.0, 1.0, 0.7)
@@ -79,3 +79,4 @@ if prompt := st.chat_input("How can I help You?"):
 if st.sidebar.button("Clear Chat"):
     st.session_state.messages=[]
     st.rerun()
+
