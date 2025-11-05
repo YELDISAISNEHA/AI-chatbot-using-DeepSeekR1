@@ -1,0 +1,6 @@
+streamlit
+groq
+supabase
+beautifulsoup4
+requests
+ollama
